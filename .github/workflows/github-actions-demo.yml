@@ -21,6 +21,4 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{job.status}}."
       - run: echo "This is an API_KEY  ${{secrets.API_KEY}}. "
-      - run: echo "$Greeting $First_Name. Today is $DAY_OF_WEEK!"
-      - env:
-          First_Name: Mona
+      - run: echo "$Greeting . Today is $DAY_OF_WEEK!"
